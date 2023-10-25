@@ -51,6 +51,15 @@ d. Cuántas cadenas hay que tengan la ‘b’ y cuáles son.
         }else{
             console.log("En la cadena dos hay más b");
         }
+
+        let regExp = /+b+/g;
+        let coincideExpresion = function(cadena, excpReg){
+            return cadena.match(excpReg);
+        };
+        let arraResultado = v.filter(elemento => coincideExpresion(elemento,regExp));
+        console.log(`Hay ${arraResultado.length} coincidencias encontradas en ${arraResultado.join(",")}´);
     }
     ejercicio28(["de","feo","rico","pobre","millonario","sordo"],["dedo","mano","pie","cabeza","pierna"]);
 }
+
+

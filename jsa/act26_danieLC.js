@@ -20,7 +20,7 @@
                 
             if(cadena.endsWith("a") || cadena.endsWith("o")){
                 console.log(" empieza con las letras “m” o “d” y además termina con las letra a o o");
-            }
+          }
             }else{
          console.log("No es la palabra buscada");
         }
