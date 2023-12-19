@@ -6,7 +6,7 @@ el día de hoy, pe. miFuncion(new Date(1984,4,23)) o miFuncion (“01/12/2010”
 
 
 {
-    function ejercicio30(fechaInicial){
+    function ejercicio31(fechaInicial){
         const fechaActual= new Date();
      
         const cumple = new Date(fechaInicial);
@@ -20,5 +20,5 @@ el día de hoy, pe. miFuncion(new Date(1984,4,23)) o miFuncion (“01/12/2010”
 
         
     }
-    ejercicio30(new Date("1990-10-24"));
+    ejercicio31(new Date("1990-10-24"));
 }

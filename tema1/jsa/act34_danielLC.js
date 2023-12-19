@@ -9,15 +9,13 @@ guión alto y bajo+@+caracteres, números+.+al menos dos caracteres.
 {
     function ejercicio34(email){
         
-      let valido=true;
+ 
         
-      for(let i=0;i<email.length;i++){
-            
-       
-       }
+      var correcto = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  console.log(correcto.test(email));
 
-      console.log(valido);
+    
         
     }
-    ejercicio34("Javier Ferrer");
+    ejercicio34("javier.ferrer@iesmartinezm.es");
 }
